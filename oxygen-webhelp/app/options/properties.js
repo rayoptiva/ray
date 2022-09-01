@@ -8,7 +8,7 @@ define(
     "webhelp.enable.sticky.topic.toc" : "yes",
     "webhelp.enable.template.js.module.loading" : "no",
     "webhelp.language" : "en",
-    "webhelp.publication.toc.links" : "chapter",
+    "webhelp.publication.toc.links" : "all",
     "webhelp.publication.toc.tooltip.position" : "right",
     "webhelp.search.enable.pagination" : "true",
     "webhelp.search.page.numberOfItems" : "10",
@@ -16,5 +16,6 @@ define(
     "webhelp.show.full.size.image" : "true",
     "webhelp.show.main.page.tiles" : "yes",
     "webhelp.show.main.page.toc" : "no",
-    "webhelp.top.menu.depth" : "3",
+    "webhelp.show.top.menu" : "no",
+    "webhelp.top.menu.depth" : "4",
     "webhelp.topic.collapsible.elements.initial.state" : "expanded" });

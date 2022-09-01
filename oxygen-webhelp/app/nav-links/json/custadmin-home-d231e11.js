@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Customer dashboard","shortdesc":"<p class=\"shortdesc\">Manage your customer administration on this dashboard<\/p>","href":"custadmin-searching.html","attributes":{"data-id":"custadmin-searching"},"menu":{"hasChildren":false},"tocID":"custadmin-searching-d231e22","topics":[]}]});

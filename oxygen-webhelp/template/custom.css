@@ -1,0 +1,91 @@
+.wh_tile {
+    background-color: #003050;
+    border-radius: 75px;
+    border: 0.01em solid #dce5ff;
+}
+.wh_tile {
+    margin: 1em;
+    padding: 0.75em;
+    width: 30%;
+    min-width: 300px;
+    min-height: 130px;
+}
+.sectiontitle {
+    color: #000;
+    font-size: 1.37em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+   .wh_tile_shortdesc {
+    margin-top: 0.5em;
+    text-align: center;
+    color: white;
+}
+
+.wh_tile_title a:visited {
+    color: white;
+}
+    .wh_right_tools {
+    display: none;
+    align-items: center;
+}
+ 
+    .wh_publication_toc li {
+    line-height: 2.1em;
+    margin: .0em 0;
+    font-weight: 400;
+    font-size: 12pt;
+    color:white;
+}
+.wh_publication_toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    word-wrap: break-word;
+    background-color: #003050;
+    color:white;
+}
+
+.wh_publication_toc ul a{
+    color: white;
+}
+      
+.wh_publication_toc ul.li a{
+        color: white;
+}
+
+.wh_tile_title {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wh_publication_title > a {
+    color: #09C9FF;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.wh_search_input {
+    background-color: #003050;
+}
+element.style {
+    top: 274.968px;
+    width: 150px;
+    position: fixed;
+    z-index: 997;
+    display: flex;
+    flex-direction: column;
+    max-height: 835.032px;
+}
+.p {
+    margin-top: 0.5em;
+}
+p {
+    margin-bottom: 0.5em;
+}

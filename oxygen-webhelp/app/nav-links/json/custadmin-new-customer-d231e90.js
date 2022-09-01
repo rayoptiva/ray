@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Creating customers","shortdesc":"<p class=\"shortdesc\">Create a customer by associating this reorod with a party, contact, and other entities<\/p>","href":"custadmin-individual-customers.html","attributes":{"data-id":"custadmin-individual-customers"},"menu":{"hasChildren":false},"tocID":"custadmin-individual-customers-d231e101","topics":[]}]});
