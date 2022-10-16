@@ -1,5 +1,5 @@
 .wh_tile {
-    background-color: #003050;
+    background-color: #1599be;
     border-radius: 75px;
     border: 0.01em solid #dce5ff;
 }
@@ -10,32 +10,87 @@
     min-width: 300px;
     min-height: 130px;
 }
-.sectiontitle {
-    color: #000;
-    font-size: 1.37em;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-top: 1em;
+a, a:hover, a:visited {
+	color: #3f526f;
 }
-   .wh_tile_shortdesc {
+.sectiontitle {
+    color: #3f526f;
+    font-size: 1.65em;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1.6em;
+}
+.wh_search_button {
+    background-color: #D4F0F0;
+}
+
+div.note {
+    background-image:url(../../images/note.png);
+    background-size: 37px;
+}
+
+[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+	background-color: ghostwhite;
+	border-color: #0078A0;
+}
+div.note > span.note__title {
+    font-weight: bold;
+    color: #3f526f;
+}
+
+.wh_tile_shortdesc {
     margin-top: 0.5em;
     text-align: center;
     color: white;
+   }
+
+.wh_topic_toc .wh_topic_label {
+    font-weight: 500;
+    color: black;
+    /* background-color: lightgrey; */
 }
+.wh_topic_toc {
+    border-left: 1px solid #cfe2f5;
+    margin-left: 0;
+    padding-left: 1em;
+    background-color: #F0F0F0;
+}
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+    background-color: #E6FAFF;
+    border-color: #0078A0;
+}
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+    background-color: #E6FAFF;
+    border-color: #0078A0;
+}
+
+.wh_topic_toc a {
+    color:#494949;
+} 
+.wh_topic_toc a:visited {
+    color:#494949;
+}  
+body {
+    font-size: 12pt;
+}   
 
 .wh_tile_title a:visited {
     color: white;
 }
-    .wh_right_tools {
+.wh_tile_title a {
+    color: white;
+}
+.wh_right_tools {
     display: none;
     align-items: center;
 }
  
-    .wh_publication_toc li {
-    line-height: 2.1em;
+.wh_publication_toc li {
+    line-height: 2.3em;
     margin: .0em 0;
-    font-weight: 400;
-    font-size: 12pt;
+    font-weight: 500;
+    font-size: 13pt;
+    font-family: sans-serif;
     color:white;
 }
 .wh_publication_toc ul {
@@ -43,7 +98,7 @@
     margin: 0;
     padding: 8px;
     word-wrap: break-word;
-    background-color: #003050;
+    background-color: #1599be;
     color:white;
 }
 
@@ -55,6 +110,10 @@
         color: white;
 }
 
+.wh_tile_title a {
+    color: white;
+}
+
 .wh_tile_title {
     text-align: center;
     font-weight: 700;
@@ -62,21 +121,28 @@
     font-size: 18pt;
 }
 
+
+
 body {
     font-family: 'Ubuntu', sans-serif;
 }
 
 .wh_publication_title > a {
-    color: #09C9FF;
-    font-size: 1.6em;
-    font-weight: 700;
+    color: #3f526f;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.topictitle1, *[class~='toc/title'], *[class~="placeholder/figurelist"] > *[class~="topic/title"], *[class~="placeholder/tablelist"] > *[class~="topic/title"], *[class~="index/groups"]::before {
+    font-size: 23pt; font-weight: 600; color: #3f526f;
 }
 .wh_search_input {
-    background-color: #003050;
+    background-color: #1599be;
 }
 element.style {
     top: 274.968px;
     width: 150px;
+    height: 600px;
     position: fixed;
     z-index: 997;
     display: flex;
@@ -89,3 +155,20 @@ element.style {
 p {
     margin-bottom: 0.5em;
 }
+
+.current_node {
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+*[class = "- topic/ol ol"] > *[class = "- topic/li li"]::marker,
+*[class = "- topic/ol ol"] > *[class = "- topic/li li"]::before {
+  color: #3f526f;; size: 14px; font-weight: 600;
+}
+*[class = "- topic/ul ul"] > *[class = "- topic/li li"]::marker,
+*[class = "- topic/ul ul"] > *[class = "- topic/li li"]::before {
+  font-size: 1.3em;
+}
+    
+    
+    

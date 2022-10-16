@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map/>
+<map>
+   <appContext helpID="custadmin-home" path="custadmin-home.html"/>
+   <appContext helpID="custadmin-searching" path="custadmin-searching.html"/>
+   <appContext helpID="party-list" path="custadmin-party-list.html"/>
+   <appContext helpID="create-party" path="create-party-individual.html"/>
+   <appContext helpID="edit-party" path="edit_a_party.html"/>
+   <appContext helpID="customer-screen" path="custadmin-customer-dash.html"/>
+   <appContext helpID="create-customer" path="custadmin-individual-customers.html"/>
+   <appContext helpID="edit-customer" path="customer-edit.html"/>
+   <appContext helpID="accounts-screen" path="accounts.html"/>
+   <appContext helpID="create-account" path="create_account.html"/>
+   <appContext helpID="edit-account" path="edit_account.html"/>
+   <appContext helpID="subscription-list" path="subscription.html"/>
+   <appContext helpID="manage-subscriptions" path="create_subscriptions.html"/>
+   <appContext helpID="subs-call-details" path="subs-call-details.html"/>
+   <appContext helpID="subs-usage-and-balance" path="subs-usage-and-balance.html"/>
+   <appContext helpID="recharge-history" path="recharge-history.html"/>
+   <appContext helpID="flex-bundle" path="flex-bundle.html"/>
+   <appContext helpID="cug-about" path="cug-about.html"/>
+   <appContext helpID="cug-create" path="cug-create.html"/>
+   <appContext helpID="cug-add-new-memb" path="cug-add-new-memb.html"/>
+   <appContext helpID="cug-edit" path="cug-edit.html"/>
+   <appContext helpID="plp-plans" path="plp-plans.html"/>
+   <appContext helpID="plp-add" path="plp-add.html"/>
+   <appContext helpID="pin-management" path="pin-management.html"/>
+   <appContext helpID="settings" path="settings.html"/>
+</map>

@@ -1,6 +1,7 @@
 define(
   { "default.language" : "en",
     "use.stemming" : "false",
+    "webhelp.default.collection.type.sequence" : "yes",
     "webhelp.enable.search.autocomplete" : "true",
     "webhelp.enable.search.kuromoji.js" : "true",
     "webhelp.enable.sticky.header" : "yes",
@@ -16,6 +17,8 @@ define(
     "webhelp.show.full.size.image" : "true",
     "webhelp.show.main.page.tiles" : "yes",
     "webhelp.show.main.page.toc" : "no",
+    "webhelp.show.navigation.links" : "yes",
+    "webhelp.show.print.link" : "yes",
     "webhelp.show.top.menu" : "no",
     "webhelp.top.menu.depth" : "4",
     "webhelp.topic.collapsible.elements.initial.state" : "expanded" });
